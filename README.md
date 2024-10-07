@@ -1,4 +1,4 @@
-Group 10 Graph Theory Final Project
+Group 10 Graph Theory Week 7 Project
 
 | Name           | NRP        |
 | ---            | ---        |
