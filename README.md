@@ -89,7 +89,7 @@ def tsp(start, v, graph):
   ```
   - After visiting all vertices, add the cost of returning from the last vertex (k) back to the start vertex to current_cost.
   - Add the edge name of this return trip to current_route.
-  <br>
+  
   7. If the total cost of the current permutation (current_cost) is less than min_cost, update min_cost and best_route to reflect the better route.
   ```
   if current_cost < min_cost:
@@ -97,7 +97,7 @@ def tsp(start, v, graph):
     best_route = current_route
   ```
   8. After all permutations have been checked, print out the minimum cost (min_cost) and the corresponding route (best_route).
-  9
+     
 **Main Function:**
 ```
     v = int(input())
@@ -142,6 +142,7 @@ def tsp(start, v, graph):
     - name: The identifier for the edge.
     - ver1 and ver2: The vertices (converted to zero-indexed by subtracting 1).
     - weight: The cost or distance of the edge between ver1 and ver2.
+  <br>
   4. Update the Graph with Edge Weights
   ```
   if weight < graph[ver1][ver2][0]:
